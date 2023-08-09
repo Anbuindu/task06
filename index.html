@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="Bag">Bags</span>
+        <span class="item" data-name="Watch">Watch</span>
+        <span class="item" data-name="Nailpolish">Nailpolish</span>
+        <span class="item" data-name="Lipstick">Lipstick</span>
+        <span class="item" data-name="Bracelet">Bracelet</span>
+        <span class="item" data-name="Footwear">Footwear</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="Bag"><span><img src="images/bag1.jpg" alt=""></span></div>
+      <div class="image" data-name="Watch"><span><img src="images/watch2.jpg" alt=""></span></div>
+      <div class="image" data-name="Nailpolish"><span><img src="images/nail1.jpg" alt=""></span></div>
+      <div class="image" data-name="Footwear"><span><img src="images/heels1.jpg" alt=""></span></div>
+      <div class="image" data-name="Lipstick"><span><img src="images/lipstick.jpg" alt=""></span></div>
+      <div class="image" data-name="Bag"><span><img src="images/bag4.jpg" alt=""></span></div>
+      <div class="image" data-name="Footwear"><span><img src="images/slipper1.jpg" alt=""></span></div>
+      <div class="image" data-name="Nailpolish"><span><img src="images/nail3.jpg" alt=""></span></div>
+      <div class="image" data-name="Bracelet"><span><img src="images/bracelet1.jpg" alt=""></span></div>
+      <div class="image" data-name="Bag"><span><img src="images/bag3.jpg" alt=""></span></div>
+      <div class="image" data-name="Nailpolish"><span><img src="images/nail4.jpg" alt=""></span></div>
+      <div class="image" data-name="Watch"><span><img src="images/watch1.jpg" alt=""></span></div>
+      <div class="image" data-name="Footwear"><span><img src="images/slipper2.jpg" alt=""></span></div>
+      
+      
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+  <script src="script.js"></script>
+</body>
+</html>
